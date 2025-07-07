@@ -1,0 +1,8 @@
+version: "3.9"
+
+services:
+  fortest:
+    build: .
+    ports:
+      - "8889:8889"
+    restart: always
