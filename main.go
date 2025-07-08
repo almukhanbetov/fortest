@@ -10,7 +10,7 @@ import (
 )
 
 func main() {
-	dbpool, err := pgxpool.New(context.Background(), "postgres://postgres:Zxcvbnm123@127.0.0.1:5432/fortest")
+	dbpool, err := pgxpool.New(context.Background(), "postgres://postgres:Zxcvbnm123@db:5432/fortest")
 	if err != nil {
 		log.Fatalf("Unable to connect to database: %v\n", err)
 	}
