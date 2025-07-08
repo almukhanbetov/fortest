@@ -14,7 +14,7 @@ services:
     ports:
       - "8889:8889"
     environment:
-      DATABASE_URL: postgres://postgres:Zxcvbnm123@db:5432/fortest
+      DATABASE_URL: postgres://postgres:Zxcvbnm123@62.72.23.250:5432/fortest
     depends_on:
       - db
     restart: always
