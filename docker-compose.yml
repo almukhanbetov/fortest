@@ -2,9 +2,9 @@ version: "3.9"
 
 services:
   db:
-    image: postgres:15
+    image: postgres:17
     environment:
-      POSTGRES_PASSWORD: yourpassword
+      POSTGRES_PASSWORD: Zxcvbnm123
       POSTGRES_DB: fortest
     ports:
       - "5432:5432"
